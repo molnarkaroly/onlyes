@@ -1,0 +1,74 @@
+body{
+    overflow-x: hidden;
+}
+
+.noButton{
+    font-size: 35px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.yesButton{
+    font-size: 35px;
+    padding: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+
+    background-color: rgb(30, 255, 0);
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    margin: 1%;
+}
+
+
+
+
+.centerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.agif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:4%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bkgif{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding-top:2%;
+    text-align: center;
+    
+}
+
+#centerText{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    display: none;
+    justify-content: center;
+
+}
+
+
+#indexP{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
